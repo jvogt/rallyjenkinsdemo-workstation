@@ -1,0 +1,9 @@
+Prerequisites: Docker
+
+Start by running `start.sh`
+
+Commit and push to the repo that was cloned (`sampleapp`)
+
+Jenkins (http://localhost:8080) should build, test, and deploy it.
+
+You can see it running locally (http://localhost:30080)
