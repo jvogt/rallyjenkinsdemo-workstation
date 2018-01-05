@@ -12,3 +12,4 @@ sleep 10
 echo "Opening Browsers"
 open *.webloc
 
+echo "Done"
