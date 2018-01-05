@@ -1,12 +1,12 @@
 version: '3'
 services:
   git:
-    image: "rally-jenkins-demo/git-server:2.1.0"
+    image: "jeffvogt/workshop-git:2.1.0"
     ports:
      - "2222:22"
 
   jenkins:
-    image: "rally-jenkins-demo/jenkins-server:3.1.0"
+    image: "jeffvogt/workshop-jenkins:3.1.0"
     ports:
      - "8080:8080"
 
