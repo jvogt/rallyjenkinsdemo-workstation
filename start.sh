@@ -14,6 +14,9 @@ if [ $(echo "$mem<3.8" | bc) -eq 1 ]; then
   exit 1
 fi
 
+echo "Pulling docker images"
+./prep_workstation.sh
+
 echo "Starting docker compose project"
 docker-compose up -d
 
