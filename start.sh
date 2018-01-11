@@ -21,7 +21,7 @@ echo "Starting docker compose project"
 docker-compose up -d
 
 echo "Waiting for Docker Containers to start..."
-sleep 10
+sleep 20
 
 ssh-keygen -R [localhost]:2222
 
