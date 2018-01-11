@@ -1,7 +1,7 @@
 version: '2.2'
 services:
   git:
-    image: "jeffvogt/workshop-git:2.4.0"
+    image: "jeffvogt/workshop-git:2.5.0"
     ports:
      - "2222:22"
 
