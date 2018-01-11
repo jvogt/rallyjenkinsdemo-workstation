@@ -6,7 +6,7 @@ services:
      - "2222:22"
 
   jenkins:
-    image: "jeffvogt/workshop-jenkins:3.1.1"
+    image: "jeffvogt/workshop-jenkins:3.2.0"
     ports:
      - "8080:8080"
     volumes:
